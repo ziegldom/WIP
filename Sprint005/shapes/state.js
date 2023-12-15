@@ -17,7 +17,7 @@ function stateConstructor(state, i) {
 const labelText = state.attr('label/text');
 const stateJson = {
     type:"State",
-    name:labelText,
+    prompt:labelText,
     transitions: [],
     };
 
