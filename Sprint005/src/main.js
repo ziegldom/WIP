@@ -23,7 +23,7 @@ paper.on('element:pointerdblclick', (cellView, evt, x, y) => {
 
 if (cell.attr('label/text')) {
         const currentLabel = cell.attr('label/text');
-        const newLabel = prompt('Enter a new label:', currentLabel);
+        const newLabel = prompt('Enter a new Prompt:', currentLabel);
         if (newLabel !== null) {
             cell.attr('label/text', newLabel);
         }
