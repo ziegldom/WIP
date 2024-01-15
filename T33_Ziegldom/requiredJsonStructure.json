@@ -1,0 +1,16 @@
+{
+	"type": "Start",
+	"prompt": "Y",
+	"starter": "Z",
+	"isStarting": true,
+	"transitions": [{
+		"type": "link",
+		"trigger": "A",
+		"guard": "B",
+		"action": "C",
+		"subsequentState": [{
+			"type": "finalState",
+			"name": "Final State"
+		}]
+	}]
+}
